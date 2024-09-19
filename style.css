@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Amor2.gif'); /* Ruta al GIF */
+    background-size: cover; /* Escala el fondo para cubrir toda la pantalla */
+    background-position: center; /* Centra el GIF */
+    background-repeat: no-repeat; /* Evita que el GIF se repita */
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(255, 203, 220); /* Añade un fondo oscuro semi-transparente para que el texto sea legible */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    font-size: 1.5em;
+}
