@@ -10,7 +10,7 @@ body {
     background-position: center; /* Centra el GIF */
     background-repeat: no-repeat; /* Evita que el GIF se repita */
     font-family: Arial, sans-serif;
-    color: white;
+    color: rgb(199, 73, 122);
 }
 
 .container {
