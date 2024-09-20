@@ -15,18 +15,18 @@ body {
 
 .container {
     text-align: center;
-    background-color: rgb(255, 203, 220); /* Añade un fondo oscuro semi-transparente para que el texto sea legible */
+    background-color: rgb(255, 203, 220); /* Fondo oscuro semi-transparente para texto legible */
     padding: 20px;
     border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
 }
 
-
-h1 {
-    font-size: 2.5em;
+.form-group {
     margin-bottom: 20px;
 }
 
-input, button {
+input, textarea {
     padding: 10px;
     margin: 10px 0;
     font-size: 1.2em;
@@ -35,10 +35,16 @@ input, button {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+
 }
 
 button {
-    background-color: #4CAF50;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #ff435c;
     color: white;
     border: none;
     border-radius: 5px;
@@ -46,9 +52,13 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #ff435c;
 }
 
-p {
-    font-size: 1.5em;
+textarea {
+    height: 100px;
+}
+
+#resultado {
+    margin-top: 20px;
 }
